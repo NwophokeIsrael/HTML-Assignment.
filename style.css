@@ -1,0 +1,131 @@
+
+
+body{
+    margin: 0;
+}
+nav {
+    text-align: center;
+    background-color: rgb(139, 187, 187);
+    height: 80px;
+    font-size: larger;
+    font-weight: bolder;
+    opacity: 0.8;
+    margin: 0;
+}
+    nav ul li{
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    white-space: 10px;
+    font-size: larger;
+    margin-right: 50px;
+    
+}
+ul{
+    margin: 0;
+}
+li a{
+    text-decoration: none;
+
+}
+
+#about .about-content{
+
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 10px;
+}
+
+.align{
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+#work .paragraph{
+    display: grid;
+    background-color: rgb(104, 100, 108);
+    justify-content: center;
+    align-items: center;
+}
+
+
+li a:visited{
+    color: purple;
+}
+
+li a:hover{
+    color:aqua;
+    cursor: pointer;
+}
+
+li a:active{
+    color:red;
+}
+#resume{
+    background-color: papayawhip;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    
+
+}
+.footer{
+    background-color: rgb(207, 240, 229);
+    font-size: large;
+    font-weight: bold;
+    font-style: normal;
+    opacity: 1;
+
+}
+
+.Details{
+    background-color: rgb(169, 178, 184);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+article{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+img{
+    width: 200px;
+    display: flex;
+    
+}
+form input[type=submit] {
+    width: auto;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid papayawhip;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: green;
+}
+
+form input[ type=submit]:hover{
+    background-color: rgb(18, 81, 133);
+    color: white;
+}
+
+
+    
+
+
+
+
+
+
+
+
